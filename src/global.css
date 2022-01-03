@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'NotoSerif-Bold';
+		src: url('../static/font/NotoSerif-Bold.ttf') format('Truetype');
+	}
+
+	@font-face {
+		font-family: 'Pangram-Regular';
+		src: url('../static/font/Pangram-Regular.otf') format('Truetype');
+		font-weight: normal;
+	}
+
+	@font-face {
+		font-family: 'Pangram-black';
+		src: url('../static/font/Pangram-Black.otf') format('Truetype');
+		font-weight: normal;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: 'Pangram-black';
+	}
+
+	h1 {
+		font-size: 2.8rem;
+	}
+
+	h2 {
+		font-size: 5rem;
+	}
+
+	h3 {
+		font-size: 3rem;
+	}
+
+	h4 {
+		font-size: 2rem;
+	}
+
+	p {
+		font-family: 'Pangram-Regular';
+		font-size: 1.1rem;
+	}
+
+	a {
+		font-family: 'Pangral-Regular';
+	}
+
+	span {
+		width: 60px;
+		border: solid 3px white;
+		border-radius: 5px;
+		display: inline-block;
+	}
+
+	@media screen and (max-width: 641px) {
+	}
+
+	@media screen and (max-width: 769px) {
+	}
+
+	@media screen and (max-width: 1025px) {
+	}
+
+	@media screen and (max-width: 1281px) {
+	}
+
+	@media screen and (max-width: 1537px) {
+	}
+}
